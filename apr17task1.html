@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-22 Task-1</title>
+    <style>
+        body{
+            background-color: black;
+        }
+       
+         #box1{
+            width: 30px;
+            height: 100px;
+            background-color: black;
+          
+            bottom: 220px;
+            position: fixed;
+            left: 40%;
+            
+            animation-name: box1;
+            animation-duration: 0.5s;
+           
+            animation-direction:alternate-reverse;
+            animation-iteration-count: infinite;
+         }
+       
+
+        #box2{
+            width: 30px;
+            height: 70px;
+            background-color: black;
+            display: inline;    
+            position: absolute;
+            left: 44%;
+            bottom: 220px;
+            animation-name: box2;
+            animation-duration: 0.6s;
+       
+            animation-direction:alternate-reverse;
+            animation-iteration-count: infinite;
+
+            
+        }
+        #box3{
+            width: 30px;
+            height: 70px;
+            background-color: black;
+            display: inline;
+            position: absolute;
+            left: 48%;
+            bottom: 220px;
+            animation-name: box3;
+            animation-duration: 0.8s;
+          
+            animation-direction:alternate-reverse;
+            animation-iteration-count: infinite;
+
+      
+        }
+        #box4{
+            width: 30px;
+            height: 100px;
+            background-color: black;
+            position: absolute;
+            left: 52%;
+            bottom: 220px;
+            animation-name: box4;
+            animation-duration:0.9s;
+          
+            animation-direction:alternate-reverse;
+            animation-iteration-count: infinite;
+
+        
+        }
+        
+        @keyframes box1{
+            
+
+
+            from{height:80px;background-color: red;}
+            to{height: 1px;background-color: yellow;}
+        } 
+
+
+
+        @keyframes box2{
+           
+
+         from{height:110px;background-color: aqua;}
+            to{height: 5px;background-color: greenyellow;}
+
+    }
+        @keyframes box3{
+           
+            
+            from{height:100px;background-color: wheat;}
+            to{height: 6px;background-color: cornflowerblue;}
+        } 
+        @keyframes box4{
+            
+            from{height:120px;background-color: cornsilk;}
+            to{height: 8px;background-color: deeppink;}
+        } 
+img{
+    position: absolute;
+    left: 37%;
+    top: 30px;
+}
+audio{
+    position: absolute;
+    top: 500px;
+    left: 37%;
+}
+        
+
+    </style>
+</head>
+<body>
+   <img src="https://paglasongs.com/uploads/thumb/sft34/16800_4.jpg" width="300px" height="300px">
+      
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+    <div id="box4"></div><br>
+<audio src="./kinni.mp3" controls></audio>
+   
+
+</body>
+</html>

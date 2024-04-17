@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-22 Task-2</title>
+    <style>
+        body{
+            background-color: black;
+        }
+       #ball1{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 20%;
+      
+        border-radius: 50%;
+        background-color: aqua;
+        animation-name: ball1;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+       } 
+       @keyframes ball1 {
+        0%{top:300px;background-color: red;}
+        50%{top: 520px;background-color: yellow;}
+        100%{top: 0px;background-color: burlywood;}
+       }
+       
+       #ball2{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 35%;
+        border-radius: 50%;
+        background-color: aqua;
+        animation-name: ball2;
+        animation-duration: 1.2s;
+        animation-iteration-count: infinite;
+       } 
+       @keyframes ball2 {
+        0%{top:300px;background-color: red;}
+        50%{top: 450px;background-color: deeppink;}
+        75%{top: 100px;background-color: yellow;}
+        100%{top: 20px;background-color: violet;}
+       }
+       
+       #ball3{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        border-radius: 50%;
+        background-color: aqua;
+        animation-name: ball3;
+        animation-duration: 1.6s;
+        animation-iteration-count: infinite;
+       } 
+       @keyframes ball3 {
+        0%{top:350px;background-color: red;}
+        50%{top: 490px;background-color: yellow;}
+        100%{top: 0px;background-color: deepskyblue;}
+       }
+       
+       #ball4{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 65%;
+        border-radius: 50%;
+        background-color: aqua;
+        animation-name: ball4;
+        animation-duration: 1.3s;
+        animation-iteration-count: infinite;
+       } 
+       @keyframes ball4 {
+        0%{top:300px;background-color: red;}
+        50%{top: 490px;background-color: deeppink;}
+        75%{top: 90px;background-color: yellow;}
+        100%{top: 20px;background-color: violet;}
+       }
+
+       
+       
+       
+    </style>
+</head>
+<body>
+    <div id="ball1"></div>
+    <div id="ball2"></div>
+    <div id="ball3"></div>
+    <div id="ball4"></div>
+</body>
+</html>
